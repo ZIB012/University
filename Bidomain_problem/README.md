@@ -2,7 +2,10 @@
 # DISCONTINUOUS GALERKIN METHOD FOR THE BIDOMAIN PROBLEM OF CARDIAC ELECTROPHYSIOLOGY
 
 In this project the aim is to simulate the cardiac electrophysiology phenomenon by considering a bidomain 
-equation coupled with the Fitz-Hugh Nagumo model.
+equation coupled with the Fitz-Hugh Nagumo model. To capture the steep propagation front appearing in cardiac electro-physiology
+simulations, DG methods of high order are considered in order to assess the
+hyopthesis that a reduced number of degree of freedom are needed to have a good
+accuracy with respect to the standare Finite Elements case.
 
 ![Action_potential_ventr_myocyte](https://user-images.githubusercontent.com/119116024/204353837-08d520c3-ce91-48ba-aa51-f6659dcdf81d.gif)
 (image from wikipedia)
